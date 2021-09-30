@@ -247,7 +247,8 @@ footer{
 
     .container_img{
         padding: 2rem;
-        box-sizing: initial;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     .card{
