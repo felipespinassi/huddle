@@ -237,7 +237,7 @@ footer{
 
 
     .container_title{
-    font-size: 1rem;
+    font-size: 1.5rem;
     }
 
     .container_esquerda{
@@ -255,7 +255,8 @@ footer{
     }
 
     .card_title{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .card_button{
