@@ -224,9 +224,13 @@ footer{
     }
 
     .container{
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 0;
     box-sizing: border-box;
+    }
+
+    .container:nth-child(2){
+        flex-direction: column;
     }
 
     .container_esquerda{
