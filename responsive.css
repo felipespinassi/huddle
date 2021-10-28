@@ -101,4 +101,27 @@
         padding: 1rem 4rem;
         font-size: 1rem;
     }
+
+    footer{
+        padding: 10rem 1rem;
+        justify-content: center;
+    }
+    .container-rodape{
+        flex-direction: column;
+        padding-left: 2rem;
+        
+    }
+
+    .rodape1{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+
+    .copyright{
+        justify-content: center;
+    }
+
+    
 }
