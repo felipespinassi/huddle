@@ -117,7 +117,10 @@
         box-sizing: border-box;
     }
 
-
+    .rodape4{
+        width: 100%;
+        justify-content: center;
+    }
 
     .copyright{
         justify-content: center;
