@@ -1,0 +1,51 @@
+body{
+    margin: 0 5rem 0 5rem;
+    
+    
+}
+
+
+main{
+    margin: 5rem 5rem 0 5rem;
+   position: relative;
+   
+}
+
+.container{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    box-shadow: 0 0px 10px 0.5px rgb(128 141 153 / 20%);
+    border-radius: 15px;
+}
+
+.container_esquerda{
+    width: 40%;
+    padding: 0 0 0 4rem;
+}
+
+.container_title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    font-family: sans-serif;
+}
+
+.container_text{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.container_img{
+    
+    width: 40%;
+    height: 800%;
+    box-sizing: border-box;
+}
+
+
+

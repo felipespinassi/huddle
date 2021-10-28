@@ -1,0 +1,104 @@
+
+@media screen and (max-width: 1000px) {
+    body{
+        margin: 0;
+    }
+    header{
+        background-image: url(./images/bg-hero-mobile.svg);
+    }
+
+    .header_top_img{
+        width: 30%;
+        margin: 2rem 0 0 1rem;
+    }
+
+    .header_top_button{
+         padding: 1rem 2rem;
+         margin: 1rem 1rem 0 0;
+    }
+
+    .header_bot{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 1rem ;
+    }
+
+    .header_bot_esquerda{
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+        width: 100%;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .header_bot_subtitle{
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+   .header_bot_button{
+       padding:1rem 4.5rem 1rem 4.5rem;
+   }
+
+   .header_bot_direita{
+       width: 100%;
+       
+   }
+
+   .header_bot_img{
+       width: 100%;
+       box-sizing: border-box;
+       padding: 4rem 2rem;
+       max-width: 1000px;
+   }
+
+   main{
+    margin: 0;
+    }
+
+    .container{
+    flex-direction: column-reverse;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .container:nth-child(2){
+        flex-direction: column;
+    }
+
+    .container_esquerda{
+    padding: 2rem ;
+    text-align: center;
+    }
+
+
+
+    .container_title{
+    font-size: 1.5rem;
+    }
+
+    .container_esquerda{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .container_img{
+        padding: 2rem;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card_title{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .card_button{
+        padding: 1rem 4rem;
+        font-size: 1rem;
+    }
+}
