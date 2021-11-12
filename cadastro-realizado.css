@@ -14,6 +14,13 @@
 
 @media screen and (max-width: 1000px) {
 
+    .container-success img{
+        width: 50%;
+        max-width: 250px;
+    }
 
+    .container-text{
+        font-size: 1.5rem;
+    }
 
 }
