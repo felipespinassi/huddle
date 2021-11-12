@@ -1,13 +1,13 @@
 body{
     margin: 0 5rem 0 5rem;
-    
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
     
 }
 
 
 main{
     margin: 5rem 5rem 0 5rem;
-   position: relative;
    
 }
 
@@ -47,5 +47,42 @@ main{
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1000px) {
+
+main{
+    margin: 0;
+    }
+
+    .container{
+    flex-direction: column-reverse;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .container:nth-child(2){
+        flex-direction: column;
+    }
+
+    .container_esquerda{
+    padding: 2rem ;
+    text-align: center;
+    }
 
 
+
+    .container_title{
+    font-size: 1.5rem;
+    }
+
+    .container_esquerda{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .container_img{
+        padding: 2rem;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+}

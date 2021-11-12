@@ -1,0 +1,130 @@
+body{
+    margin: 0 5rem;
+    font-family: sans-serif;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    box-sizing: border-box;
+    height: 250px;
+    box-shadow: 0 0px 10px 0.5px rgb(128 141 153 / 20%);
+    border-radius: 2rem;
+}
+
+.header-cadastro{
+    padding: 5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button-cadastro  {
+    padding:0.8rem 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(90deg, #85d4ff,#e683fc);
+    cursor: pointer ;
+    color: #fff;
+    margin-left: 3rem;
+
+}
+
+
+.titulo-principal{
+    font-size: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    padding: 4rem 4rem;
+    width: 400px;
+    box-shadow: 0 0px 10px 0.5px rgb(128 141 153 / 20%);
+    border-radius: 2rem;
+}
+
+.form-label{
+    font-size: 1.3rem;
+}
+.form-input{
+   display: flex;
+   margin: 0.5rem 0 2rem 0rem;
+   width: 100%;
+   padding: 0.5rem;
+   box-sizing: border-box;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+.button-submit{
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-image: linear-gradient(90deg, #85d4ff,#e683fc);
+    color: #fff;
+    font-size: 1.5rem
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        margin: 0;
+    }
+
+    .header-cadastro{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .header-img{
+        width: 12rem;
+        padding: 2rem 0;
+    }
+
+    .header-buttons{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .button-cadastro{
+        margin:1rem 0;
+        box-sizing: border-box;
+    }
+
+    .titulo-principal{
+        font-size: 2rem ;
+    
+    }
+
+
+    .container{
+        padding:2rem;
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .form-input{
+        width: 90%;
+
+    }
+}
+
+
+

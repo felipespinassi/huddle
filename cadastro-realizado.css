@@ -1,0 +1,19 @@
+
+.container-success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.container-text{
+    font-size: 3rem;
+    padding-top: 3rem;
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+
+
+}
