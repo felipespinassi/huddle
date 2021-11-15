@@ -23,26 +23,28 @@
     <main>
         <h1 class="titulo-principal"> Create your account</h1>
 
-        <form class="container">
+        <form action="./cadastro-realizado.html" class="container">
             <label for="fname" class="form-label"> Nome</label>
-            <input type="text" placeholder="Digite seu nome" class="form-input">
+            <input required type="text" placeholder="Digite seu nome" class="form-input">
 
             <label for="lname" class="form-label">Sobrenome</label>
-            <input type="text" placeholder="Digite seu Sobrenome" class="form-input">
+            <input required type="text" placeholder="Digite seu Sobrenome" class="form-input">
 
             <label for="email" class="form-label"> E-mail</label>
-            <input type="email" placeholder="example@example.com" class="form-input">
+            <input required type="email" placeholder="example@example.com" class="form-input">
 
             <label for="password" class="form-label"> Senha</label>
-            <input type="password" placeholder="********" class="form-input">
+            <input required type="password" placeholder="********" class="form-input">
 
             <label for="password" class="form-label"> Confirmar senha</label>
-            <input type="password" placeholder="********" class="form-input">
-
+            <input required type="password" placeholder="********" class="form-input">
 
             <div class="container-button">
-                <a href="./cadastro-realizado.html"><input type="button" value="Submit" class="button-submit" ></a>
+                <input type="submit" data-button="data-button" value="Submit" class="button-submit" >
             </div>
+            
+
+
             
         </form>
         
@@ -87,7 +89,10 @@
         <p class="copyright">© Copyright 2018 Huddle. All rights reserved.
         </p>
     </footer>
+
+    <script src="./script.js"></script>
     
 </body>
 
 </html>
+
