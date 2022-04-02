@@ -13,19 +13,18 @@ header{
 .header_top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
 }
 
 .header_top_img{
-    margin-top: 3rem;
-    margin-left: 4rem;
+
     width: 15%;
     height: 15%;
     
 }
 
 .header_top_button{
-    margin-right: 4rem;
-    margin-top: 3rem;
     padding: 1rem 3.5rem 1rem 3.5rem;
     border: none;
     border-radius: 2rem;
@@ -91,23 +90,31 @@ header{
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
     body{
         margin: 0;
     }
-    header{
-        background-image: url(./images/bg-hero-mobile.svg);
+    .header_top{
+        flex-direction: column;
+        gap: 2rem;
     }
+
+    .header_top div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+   
 
     .header_top_img{
-        width: 30%;
-        margin: 2rem 0 0 1rem;
+        width: 220px;
+
     }
 
-    .header_top_button{
-         padding: 1rem 2rem;
-         margin: 1.5rem 0;
-    }
+  
 
     .header_bot{
         flex-direction: column;
@@ -143,5 +150,6 @@ header{
        padding: 4rem 2rem;
        max-width: 1000px;
     }
+
 
 }    

@@ -129,16 +129,40 @@ footer{
     footer{
         padding: 10rem 1rem;
         justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
+
+    
     .container-rodape{
         flex-direction: column;
         padding-left: 2rem;
+        align-items: center;
+        justify-content: center;
 
+    }
+
+    .rodape{
+        align-items: center;
+        justify-content: center;
     }
 
     .rodape1{
         width: 100%;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        gap: 1.5rem;
+
+    }
+
+    .rodape1 a {
+        text-align: center;
     }
 
     .rodape4{
@@ -148,7 +172,7 @@ footer{
 
     .copyright{
         justify-content: center;
-        padding: 0;
+        padding: 1;
     }
 
 
